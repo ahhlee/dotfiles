@@ -12,8 +12,8 @@ mkdir -p -- "$1" && cd -P -- "$1"
 }
 
 # Long format list
-alias lla="ls -la"
-alias ll="ls -l"
+alias lla="ls -la -GFh"
+alias ll="ls -l -GFh"
 
 # Print my public IP
 alias myip='curl ipinfo.io/ip'
